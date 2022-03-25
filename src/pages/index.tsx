@@ -37,7 +37,7 @@ export default function Home ({products, categories}: ProductsProps) {
         {categories.map(category=>(
           <>
           <Text fontSize="20" fontWeight="black" textAlign="initial" >{category}</Text>
-          <Stack  direction={['column','column', "row"]} spacing='10px'>
+          <Stack  direction={['column','column',]} spacing='10px'>
           {products.map(product =>{
             if(product.category === category){
               return(
@@ -48,6 +48,7 @@ export default function Home ({products, categories}: ProductsProps) {
                     overflow="hidden"
                     h="96px"
                     maxWidth="390px"
+                    minWidth="370px"
                     w={['100%', '390px']}
                     display="flex"
                     justifyContent="row"
