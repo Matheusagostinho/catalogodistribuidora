@@ -44,7 +44,7 @@ return(
             <Link href="/">
                 <Box h="20px" fontWeight="bold" fontSize="20" cursor="pointer"> Catálogo</Box>
               </Link>
-              <Link href="/">
+              <Link href="/contact">
                <Box h="20px" fontWeight="bold" fontSize="20" mt="20"  cursor="pointer"> Contato</Box>
               </Link>
             </Flex>
