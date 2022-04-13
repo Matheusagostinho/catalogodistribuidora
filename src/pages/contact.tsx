@@ -55,7 +55,9 @@ export default function Contact() {
              R. Dr. Antônio Gomes Pinto Coelho, nº 800, Bairro Princesa
              </Text>
              <Box  justifyContent="right">
-             <Button colorScheme="whatsapp"  float="right" rightIcon={<ArrowForwardIcon />}  onClick={e => {e.preventDefault(); handleWhatsApp('5538988414708')}}>WhatsApp</Button>
+             <Button colorScheme="whatsapp"  
+              float="right" rightIcon={<ArrowForwardIcon />}  
+              onClick={e => {e.preventDefault(); handleWhatsApp('5538988740316')}}>WhatsApp</Button>
              </Box>
              
            </Box>

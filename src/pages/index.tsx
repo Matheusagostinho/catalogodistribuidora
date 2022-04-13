@@ -102,11 +102,6 @@ export default function Home ({products, categories}: ProductsProps) {
           </Stack>
           </>
         ))}
-        
-
-        
-       
-        
        </Stack>
      </Container>
     </SlideFade>
